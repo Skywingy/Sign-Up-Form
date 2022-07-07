@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    width: 40vw;
+    background: url("fida-kettunen-f0wC10CPvAs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.right {
+    width: 60vw;
+    padding: 0 20px;
+    
+}
+
+form {
+    text-transform: uppercase;
+    height: 30%;
+    margin-left: 100px;
+    
+}
+
+.first, .second, .third {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.one {
+    padding-top: 30px;
+    height: 35%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.three {
+    height: 35%;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.lets {
+    margin-left: 100px;
+}
